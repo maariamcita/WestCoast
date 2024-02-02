@@ -2,7 +2,7 @@ function login() {
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
 
-  fetch('http://your-json-server-url/login', {
+  fetch('', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',
