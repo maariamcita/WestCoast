@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WestCoast - Courses</title>
+
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/style.css"> 
+  <link rel="stylesheet" href="CSS/course.css">
+  <link rel="stylesheet" href="CSS/admin.css">
+  <link rel="stylesheet" href="CSS/login.css">
+
+  <script src="JS/main.js" defer="true"></script>
+  <script src="JS/user.js" defer="true"></script>
+  <script src="JS/course.js" defer="true"></script>
+  <script src="JS/booking.js" defer="true"></script>
+  <script src="JS/script.js" defer="true"></script>
+
+  
+</head>
+
+<body>
+  <header>
+    <nav>
+        <ul>
+          <li><a href="index.html" id="home-link">Home</a></li>
+          <li><a href="courses.html" id="courses-link">Courses</a></li>
+          <li><a href="login.html" id="loginForm">Login</a></li>
+      </ul>
+
+      <div>
+        <input type="text" id="search" name="search" placeholder="Search...">
+      </div>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Featured Courses</h2>
+
+    <div class="course" id="course1">
+      <img src="pics/javier-garcia-chavez-bdZ3bzRde5g-unsplash.jpg" alt="Course 1 Image" class="course-image">
+      <h3>Introduction to Programming</h3>
+      <p>This course covers the fundamentals of programming using popular languages such as Python and JavaScript.</p>
+      <p>Course Number: PROG101</p>
+      <p>Duration: 30 days</p>
+      <p>Availability: Classroom / Online</p>
+      <p>Planned Date: 15/04/2024</p>
+      <button onclick="window.location.href='login.html'">Book Course</button>
+  </div>
+
+
+  <div class="course" id="course2">
+    <img src="pics/maik-jonietz-_yMciiStJyY-unsplash.jpg" alt="Course 2 Image"  class="course-image">
+    <h3>Data Science and Analytics</h3>
+    <p>Explore the world of data science and analytics, learning how to analyze and visualize data effectively.</p>
+    <p>Course Number: DATA201</p>
+    <p>Duration: 45 days</p>
+    <p>Availability: Classroom / Online</p>
+    <p>Planned Date: 06/07/2024</p>
+    <button onclick="window.location.href='login.html'">Book Course</button>
+</div>
+
+
+<div class="course" id="course3">
+  <img src="pics/markus-spiske-jUWw_NEXjDw-unsplash.jpg" alt="Course 3 Image"  class="course-image">
+  <h3>Web Development Bootcamp</h3>
+  <p>Join our comprehensive web development bootcamp to learn front-end and back-end development skills.</p>
+  <p>Course Number: WEBDEV301</p>
+  <p>Duration: 60 days</p>
+  <p>Availability: Classroom / Online</p>
+  <p>Planned Date: 18/08/2024</p>
+  <button onclick="window.location.href='login.html'">Book Course</button>
+</div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2024 WestCoast Education. All rights reserved.</p>
+  </footer>
+
+</body>
+  
+  </html>
